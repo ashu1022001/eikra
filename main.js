@@ -21,7 +21,7 @@ head2.classList.toggle('menuClicked');
 //     document.getElementById("head-3a-btn").style.width="120px";
 //     document.getElementById("head-3a-btn").style.height="40px";
 
-}
+
 //function pay(){
   //  document.getElementById("head6pay").style.width="30px";
   //  document.getElementById("head6pay").style.height="20px";
