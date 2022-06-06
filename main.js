@@ -1,18 +1,25 @@
-function fn(){
-    document.getElementById("head-5-btn").style.width="170px";
-    document.getElementById("head-5-btn").style.height="70px";
-    document.getElementById("head-3-btn").style.width="170px";
-    document.getElementById("head-3-btn").style.height="70px";
-    document.getElementById("head-3a-btn").style.width="140px";
-    document.getElementById("head-3a-btn").style.height="60px";
-}
-function fn1(){
-    document.getElementById("head-5-btn").style.width="150px";
-    document.getElementById("head-5-btn").style.height="50px";
-    document.getElementById("head-3-btn").style.width="150px";
-    document.getElementById("head-3-btn").style.height="50px";
-    document.getElementById("head-3a-btn").style.width="120px";
-    document.getElementById("head-3a-btn").style.height="40px";
+
+const menubtn =document.getElementsByClassName('menu-btn')[0];
+const head2 = document.getElementsByClassName('head-2')[0];
+menubtn.addEventListener('click',()=>{
+  console.log("clicked")
+head2.classList.toggle('menuClicked');
+})
+// function fn(){
+//     document.getElementById("head-5-btn").style.width="170px";
+//     document.getElementById("head-5-btn").style.height="70px";
+//     document.getElementById("head-3-btn").style.width="170px";
+//     document.getElementById("head-3-btn").style.height="70px";
+//     document.getElementById("head-3a-btn").style.width="140px";
+//     document.getElementById("head-3a-btn").style.height="60px";
+// }
+// function fn1(){
+//     document.getElementById("head-5-btn").style.width="150px";
+//     document.getElementById("head-5-btn").style.height="50px";
+//     document.getElementById("head-3-btn").style.width="150px";
+//     document.getElementById("head-3-btn").style.height="50px";
+//     document.getElementById("head-3a-btn").style.width="120px";
+//     document.getElementById("head-3a-btn").style.height="40px";
 
 }
 //function pay(){
