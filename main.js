@@ -2,7 +2,6 @@
 const menubtn =document.getElementsByClassName('menu-btn')[0];
 const head2 = document.getElementsByClassName('head-2')[0];
 menubtn.addEventListener('click',()=>{
-  console.log("clicked")
 head2.classList.toggle('menuClicked');
 })
 // function fn(){
